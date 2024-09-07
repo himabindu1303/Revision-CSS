@@ -170,7 +170,7 @@ footer .social-Links,footer .up-links{
 .up-links a:visited{
     color: red;
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
     header{
         width: auto;
         flex-direction: column;
@@ -190,5 +190,9 @@ footer .social-Links,footer .up-links{
 @media screen and (min-width:427px) and (max-width:768px){
     #projects{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    header{
+        width: 100vw;
     }
 }
